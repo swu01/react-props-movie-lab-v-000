@@ -18,6 +18,7 @@ export default class CardBack extends Component {
   };
 
   render() {
+    // eslint-disable-next-line
     const { title, IMDBRating, genres } = this.props;
     return (
       <div className="card-back">
